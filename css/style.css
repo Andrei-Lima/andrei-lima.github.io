@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    box-sizing: 0;
+    background-color: black;
+
+    font-family: century gothic;
+
+    color: white;
+}
+
+h1 {
+    font-weight: lighter;
+}
