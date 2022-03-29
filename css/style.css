@@ -1,4 +1,4 @@
-html, body {
+body {
     width: 100%;
     height: 100%;
 
@@ -13,4 +13,8 @@ html, body {
 
 h1 {
     font-weight: lighter;
+}
+
+r {
+    color: #16E18D;
 }

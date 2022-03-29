@@ -1,8 +1,23 @@
 .navbar {
-    margin: 10px;
+    margin: 25px;
 }
 
 .navbar h2 {
     font-size: 36px;
     margin: 0;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.links li {
+    padding: 10px;
+    list-style: none;
+}
+
+.links a {
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
 }
