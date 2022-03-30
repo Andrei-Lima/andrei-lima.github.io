@@ -4,14 +4,15 @@ body {
 
     margin: 0;
     box-sizing: 0;
-    background-color: #0f0f0f;
+    background-color: #111;
 
     font-family: century gothic;
 
     color: white;
 }
 
-h1 {
+h1, h2, h3, h4 {
+    margin: 0;
     font-weight: lighter;
 }
 
@@ -19,14 +20,30 @@ r {
     color: #16E18D;
 }
 
-l1 {
+.l1 {
     display: block;
     padding: 10px;
     font-size: 2em;
+
+    color: #fff;
 }
 
-l2 {
+.l2 {
     display: block;
     padding: 10px;
     font-size: 1em;
+
+    text-decoration: wavy;
+
+    color: #868080;
+}
+
+@media screen and (max-width: 800px) {
+    .l1 {
+        font-size: 4em;
+    }
+
+    .l2 {
+        font-size: 2em;
+    }
 }
