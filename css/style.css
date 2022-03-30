@@ -4,7 +4,7 @@ body {
 
     margin: 0;
     box-sizing: 0;
-    background-color: black;
+    background-color: #0f0f0f;
 
     font-family: century gothic;
 
@@ -17,4 +17,16 @@ h1 {
 
 r {
     color: #16E18D;
+}
+
+l1 {
+    display: block;
+    padding: 10px;
+    font-size: 2em;
+}
+
+l2 {
+    display: block;
+    padding: 10px;
+    font-size: 1em;
 }

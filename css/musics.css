@@ -1,0 +1,13 @@
+#musics {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+
+    text-align: center;
+
+    border-left: 1px solid white;
+}
+
+.desc {
+    margin: 25px;
+}
