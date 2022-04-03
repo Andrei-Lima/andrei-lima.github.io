@@ -1,0 +1,27 @@
+const text = document.getElementById('rainbow');
+const splash = [
+    "Aleatórios"
+]
+const colors = [
+    "green", "yellow", "blue", "red", "purple"
+]
+
+text.innerHTML = splash[Math.floor(Math.random()*splash.length)];
+
+window.onload = () => {
+    setInterval(main, 500);
+}
+
+function main() {
+    var r, g, b;
+
+    r = Math.floor(Math.random()*255);
+    g = Math.floor(Math.random()*255);
+    b = Math.floor(Math.random()*255);
+
+    change_color(r, g ,b);
+}
+
+function change_color(red, green, blue) {
+    return text.style.color = `rgb(${red}, ${green}, ${blue})`;
+}
