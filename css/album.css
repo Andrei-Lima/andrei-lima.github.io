@@ -1,0 +1,44 @@
+.popup {
+    position: fixed;
+    width: 500px;
+    top: 15%;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.popup img {
+    width: 500px;
+}
+
+.oi {
+    width: 100%;
+    height: 42pc;
+}
+
+.section {
+    width: 70%;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.title {
+    border-bottom: 1px solid gray;
+}
+
+.sc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sc img {
+    display: block;
+
+    max-width: 300px;
+    min-width: 250px;
+
+    padding: 10px;
+}
+
