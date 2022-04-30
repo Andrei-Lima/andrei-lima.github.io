@@ -59,4 +59,20 @@
         width: 100%;
     }
 
+    .logo h1 {
+        font-size: 72px;
+    }
+
+    a {
+        font-size: 40px;
+    }
+
+    .title h2 {
+        font-size: 60px;
+    }
+
+    .desc {
+        width: 90%;
+        font-size: 40px;
+    }
 }

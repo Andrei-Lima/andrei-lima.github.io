@@ -48,4 +48,15 @@ footer {
         padding: 30px 0;
     }
 
+    .a1 {
+        font-size: 90px;
+    }
+
+    footer {
+        font-size: 24px;
+    }
+
+    footer a {
+        font-size: 24px;
+    }
 }
