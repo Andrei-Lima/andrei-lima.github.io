@@ -1,0 +1,67 @@
+.box {
+    margin: 75px 0;
+}
+
+.topbar {
+    width: 720px;
+    height: 75px;
+
+    border-bottom: 1px solid gray;
+
+    margin-bottom: 50px;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.topbar a {
+    font-size: 28px;
+}
+
+.pstdjs {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.id p {
+    background-color: #bbbbbb;
+    border-radius: 5px;
+    
+    width: fit-content;
+
+    padding: 5px 10px;
+    color: #222;
+    font-size: 12px;
+}
+
+.album-info {
+    display: flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 25px 0;
+
+    border-bottom: 1px solid gray;
+}
+
+.image img {
+    border-radius: 10px;
+    margin: 0 50px;
+}
+
+.music-box {
+    width: 625px;
+    margin: 10px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #4d4d4d;
+    padding: 5px 10px;
+}

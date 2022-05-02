@@ -1,0 +1,76 @@
+.topbar {
+    width: 720px;
+    height: 75px;
+
+    border-bottom: 1px solid gray;
+
+    margin-bottom: 50px;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.topbar a {
+    font-size: 28px;
+}
+
+
+.box {
+    width: 90%;
+    margin: 10px auto;
+
+    border: 1px solid gray;
+}
+
+.top-info {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.bottom-info {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.desc {
+    width: 400px;
+
+    color: #b6b6b6;
+}
+
+.title h2 a{
+    font-size: 26px;
+}
+
+.yes {
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .projects {
+        width: 100%;
+    }
+    
+    a {
+        font-size: 48px;
+    }
+
+    .top-info img {
+        width: 200px;
+    }
+
+    .bottom-info p {
+        width: 700px;
+        font-size: 36px;
+    }
+
+    footer a {
+        font-size: 32px;
+    }
+}

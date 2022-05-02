@@ -1,5 +1,6 @@
 const logs = [
-    ["29/04/2022", "Inauguração", "Website pessoal para registrar alguns dos meus projetos e afazeres"],
+    ["29/04/2022", "Inauguração", "Website pessoal para registrar alguns dos meus projetos e afazeres."],
+    ["01/04/2022", "Projetos e Músicas!", "a seção dos projetos foi finalizada, junto com meu catalogo de músicas."]
 ];
 
 for (let i = 0; i < logs.length; i++) {
