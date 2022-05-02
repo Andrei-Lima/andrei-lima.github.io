@@ -65,3 +65,47 @@
     border-bottom: 1px solid #4d4d4d;
     padding: 5px 10px;
 }
+
+
+@media screen and (max-width: 1100px) {
+    
+    .id {
+        margin-left: 25px;
+    }
+
+    .id p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .box {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 72px;
+        margin: 0 25px;
+    }
+
+    p {
+        font-size: 48px;
+    }
+
+    .image img {
+        width: 300px;
+        margin: 0 25px;
+    }
+
+    .title {
+        text-align: left;
+    }
+
+    .music-box {
+        width: 80%;
+    }
+
+    audio {
+        width: 400px;
+    }
+
+}
