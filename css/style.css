@@ -3,8 +3,7 @@ body {
     font-family: 'Cantarell', sans-serif;
 
     width: 720px;
-
-    background-color: #222;
+    
     color: #e0e0e0;
 
     --link-text: #31d631;
@@ -12,6 +11,10 @@ body {
     text-align: center;
 
     font-size: 20px;
+
+    background: 
+    linear-gradient(27deg, rgb(54, 54, 54) 0%, #111 -100%, #080808 50%, #363636 130%);
+    background-attachment: fixed;
 }
 
 a {
