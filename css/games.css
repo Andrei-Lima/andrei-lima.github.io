@@ -1,0 +1,61 @@
+.navbar {
+    padding-bottom: 50px;
+}
+
+.search input {
+    padding: 5px 10px;
+    font-size: 16px;
+
+    border: none;
+    border-bottom: 1px solid #b9b9b9;
+    background-color: transparent;
+    color: #e0e0e0;
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 10px 0;
+}
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.game-box {
+    background-color: #0f0f0f;
+    border: 1px solid #272727;
+    width: fit-content;
+
+    padding: 20px 10px;
+
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    margin: 10px;
+}
+
+.game-img img {
+    width: 180px;
+    image-rendering: pixelated;
+
+    border-radius: 5px;
+}
+
+.game-price {
+    border-bottom: 1px solid #272727;
+    padding-bottom: 5px;
+}
+
+.game-price span {
+    background-color: rgba(0, 0, 0, 0.466);
+    width: fit-content;
+
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.game-title {
+    margin: 10px 0;
+}
