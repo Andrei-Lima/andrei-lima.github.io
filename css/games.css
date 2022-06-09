@@ -28,12 +28,15 @@
     border: 1px solid #272727;
     width: fit-content;
 
-    padding: 20px 10px;
+    padding: 15px 10px;
 
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
     margin: 10px;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .game-img img {
@@ -41,6 +44,22 @@
     image-rendering: pixelated;
 
     border-radius: 5px;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-desc {
+    text-align: left;
+}
+
+.game-desc p {
+    width: 250px;
+    margin: 0 25px;
+
+    font-size: 1rem;
 }
 
 .game-price {
@@ -57,5 +76,9 @@
 }
 
 .game-title {
-    margin: 10px 0;
+    margin: 10px 25px;
+}
+
+.game-title a {
+    font-size: 1.5rem;
 }

@@ -20,9 +20,11 @@
 
 .box {
     width: 90%;
-    margin: 10px auto;
+    margin: 15px auto;
 
     border: 1px solid gray;
+
+    box-shadow: black 0px 5px 20px 0px;
 }
 
 .top-info {
