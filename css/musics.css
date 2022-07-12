@@ -3,11 +3,12 @@
 }
 
 .topbar {
-    width: 720px;
+    width: 90%;
     height: 75px;
 
     border-bottom: 1px solid gray;
 
+    margin: 0 auto;
     margin-bottom: 50px;
 
     display: flex;
